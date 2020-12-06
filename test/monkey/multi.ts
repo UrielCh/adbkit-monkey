@@ -4,11 +4,9 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
 import Sinon from 'sinon';
-import Chai, { expect } from 'Chai';
-
+import Chai, { expect } from 'chai';
 import SinonChai from 'sinon-chai';
 Chai.use(SinonChai);
-
 import Multi from '../../src/monkey/multi';
 import Client from '../../src/monkey/client';
 import MockDuplex from '../mock/duplex';

@@ -5,7 +5,7 @@
  */
 import Net from 'net';
 import Sinon from 'sinon';
-import Chai, { expect } from 'Chai';
+import Chai, { expect } from 'chai';
 import SinonChai from 'sinon-chai';
 Chai.use(SinonChai);
 import Connection from '../../src/monkey/connection';
